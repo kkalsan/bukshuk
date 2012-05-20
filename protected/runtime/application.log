@@ -1,0 +1,1319 @@
+2012/04/01 09:58:48 [error] [php] mail() [<a href='function.mail'>function.mail</a>]: Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() (C:\wamp\www\mysites\bukshuk\protected\controllers\SiteController.php:61)
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 C:\wamp\www\mysites\framework\web\CController.php(287): SiteController->runAction()
+#2 C:\wamp\www\mysites\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#3 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): SiteController->run()
+#4 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#5 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\wamp\www\mysites\bukshuk\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/contact
+in C:\wamp\www\mysites\bukshuk\protected\controllers\SiteController.php (61)
+in C:\wamp\www\mysites\bukshuk\index.php (13)
+2012/04/01 10:03:34 [error] [php] mail() [<a href='function.mail'>function.mail</a>]: Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() (C:\wamp\www\mysites\bukshuk\protected\controllers\SiteController.php:61)
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 C:\wamp\www\mysites\framework\web\CController.php(287): SiteController->runAction()
+#2 C:\wamp\www\mysites\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#3 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): SiteController->run()
+#4 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#5 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\wamp\www\mysites\bukshuk\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/contact
+in C:\wamp\www\mysites\bukshuk\protected\controllers\SiteController.php (61)
+in C:\wamp\www\mysites\bukshuk\index.php (13)
+2012/04/08 10:20:08 [error] [exception.CException] exception 'CException' with message 'AdministratorController cannot find the requested view "administrator".' in C:\wamp\www\mysites\framework\web\CController.php:879
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CController.php(783): CController->renderPartial('administrator', NULL, true)
+#1 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(15): CController->render('administrator')
+#2 C:\wamp\www\mysites\framework\web\actions\CInlineAction.php(50): AdministratorController->actionIndex()
+#3 C:\wamp\www\mysites\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\mysites\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\mysites\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('')
+#7 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator')
+#8 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/administrator
+---
+2012/04/08 10:23:12 [error] [exception.CException] exception 'CException' with message 'AdministratorController cannot find the requested view "administrator".' in C:\wamp\www\mysites\framework\web\CController.php:879
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CController.php(783): CController->renderPartial('administrator', NULL, true)
+#1 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(15): CController->render('administrator')
+#2 C:\wamp\www\mysites\framework\web\actions\CInlineAction.php(50): AdministratorController->actionIndex()
+#3 C:\wamp\www\mysites\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\mysites\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\mysites\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('')
+#7 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator')
+#8 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/administrator
+---
+2012/04/08 10:23:13 [error] [exception.CException] exception 'CException' with message 'AdministratorController cannot find the requested view "administrator".' in C:\wamp\www\mysites\framework\web\CController.php:879
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CController.php(783): CController->renderPartial('administrator', NULL, true)
+#1 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(15): CController->render('administrator')
+#2 C:\wamp\www\mysites\framework\web\actions\CInlineAction.php(50): AdministratorController->actionIndex()
+#3 C:\wamp\www\mysites\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\mysites\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\mysites\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('')
+#7 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator')
+#8 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/administrator
+---
+2012/04/08 10:57:35 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.CHttpRequest" is not defined.' in C:\wamp\www\mysites\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\mysites\framework\base\CModule.php(106): CComponent->__get('CHttpRequest')
+#1 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(15): CModule->__get('CHttpRequest')
+#2 C:\wamp\www\mysites\framework\web\actions\CInlineAction.php(50): AdministratorController->actionIndex()
+#3 C:\wamp\www\mysites\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\mysites\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\mysites\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('')
+#7 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator')
+#8 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/administrator
+---
+2012/04/08 14:22:30 [error] [exception.CException] exception 'CException' with message 'AdministratorController and its behaviors do not have a method or closure named "layout".' in C:\wamp\www\mysites\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(15): CComponent->__call('layout', Array)
+#1 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(15): AdministratorController->layout('adminMain')
+#2 C:\wamp\www\mysites\framework\web\actions\CInlineAction.php(50): AdministratorController->actionIndex()
+#3 C:\wamp\www\mysites\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\mysites\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\mysites\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('')
+#7 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator')
+#8 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/administrator
+---
+2012/04/08 14:23:05 [error] [exception.CException] exception 'CException' with message 'AdministratorController and its behaviors do not have a method or closure named "layout".' in C:\wamp\www\mysites\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(15): CComponent->__call('layout', Array)
+#1 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(15): CController->layout('adminMain')
+#2 C:\wamp\www\mysites\framework\web\actions\CInlineAction.php(50): AdministratorController->actionIndex()
+#3 C:\wamp\www\mysites\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\mysites\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\mysites\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('')
+#7 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator')
+#8 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/administrator
+---
+2012/04/08 14:23:06 [error] [exception.CException] exception 'CException' with message 'AdministratorController and its behaviors do not have a method or closure named "layout".' in C:\wamp\www\mysites\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(15): CComponent->__call('layout', Array)
+#1 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(15): CController->layout('adminMain')
+#2 C:\wamp\www\mysites\framework\web\actions\CInlineAction.php(50): AdministratorController->actionIndex()
+#3 C:\wamp\www\mysites\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\mysites\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\mysites\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('')
+#7 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator')
+#8 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/administrator
+---
+2012/04/08 14:23:06 [error] [exception.CException] exception 'CException' with message 'AdministratorController and its behaviors do not have a method or closure named "layout".' in C:\wamp\www\mysites\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(15): CComponent->__call('layout', Array)
+#1 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(15): CController->layout('adminMain')
+#2 C:\wamp\www\mysites\framework\web\actions\CInlineAction.php(50): AdministratorController->actionIndex()
+#3 C:\wamp\www\mysites\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\mysites\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\mysites\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('')
+#7 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator')
+#8 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/administrator
+---
+2012/04/08 14:23:21 [error] [exception.CException] exception 'CException' with message 'AdministratorController and its behaviors do not have a method or closure named "layout".' in C:\wamp\www\mysites\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(15): CComponent->__call('layout', Array)
+#1 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(15): CController->layout('adminMain')
+#2 C:\wamp\www\mysites\framework\web\actions\CInlineAction.php(50): AdministratorController->actionIndex()
+#3 C:\wamp\www\mysites\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\mysites\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\mysites\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('')
+#7 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator')
+#8 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/administrator
+---
+2012/04/08 14:23:21 [error] [exception.CException] exception 'CException' with message 'AdministratorController and its behaviors do not have a method or closure named "layout".' in C:\wamp\www\mysites\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(15): CComponent->__call('layout', Array)
+#1 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(15): CController->layout('adminMain')
+#2 C:\wamp\www\mysites\framework\web\actions\CInlineAction.php(50): AdministratorController->actionIndex()
+#3 C:\wamp\www\mysites\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\mysites\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\mysites\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('')
+#7 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator')
+#8 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/administrator
+---
+2012/04/08 14:23:22 [error] [exception.CException] exception 'CException' with message 'AdministratorController and its behaviors do not have a method or closure named "layout".' in C:\wamp\www\mysites\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(15): CComponent->__call('layout', Array)
+#1 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(15): CController->layout('adminMain')
+#2 C:\wamp\www\mysites\framework\web\actions\CInlineAction.php(50): AdministratorController->actionIndex()
+#3 C:\wamp\www\mysites\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\mysites\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\mysites\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('')
+#7 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator')
+#8 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/administrator
+---
+2012/04/08 14:23:22 [error] [exception.CException] exception 'CException' with message 'AdministratorController and its behaviors do not have a method or closure named "layout".' in C:\wamp\www\mysites\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(15): CComponent->__call('layout', Array)
+#1 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(15): CController->layout('adminMain')
+#2 C:\wamp\www\mysites\framework\web\actions\CInlineAction.php(50): AdministratorController->actionIndex()
+#3 C:\wamp\www\mysites\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\mysites\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\mysites\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('')
+#7 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator')
+#8 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/administrator
+---
+2012/04/08 14:25:45 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.CWebApplication" is not defined.' in C:\wamp\www\mysites\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\mysites\framework\base\CModule.php(106): CComponent->__get('CWebApplication')
+#1 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(15): CModule->__get('CWebApplication')
+#2 C:\wamp\www\mysites\framework\web\actions\CInlineAction.php(50): AdministratorController->actionIndex()
+#3 C:\wamp\www\mysites\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\mysites\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\mysites\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('')
+#7 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator')
+#8 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/administrator
+---
+2012/04/08 14:26:37 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "layout".' in C:\wamp\www\mysites\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(15): CComponent->__call('layout', Array)
+#1 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(15): CWebApplication->layout('adminMain')
+#2 C:\wamp\www\mysites\framework\web\actions\CInlineAction.php(50): AdministratorController->actionIndex()
+#3 C:\wamp\www\mysites\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\mysites\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\mysites\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('')
+#7 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator')
+#8 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/administrator
+---
+2012/04/08 14:31:20 [error] [exception.CException] exception 'CException' with message 'The layout path "adminMain" is not a valid directory.' in C:\wamp\www\mysites\framework\web\CWebApplication.php:478
+Stack trace:
+#0 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(15): CWebApplication->setLayoutPath('adminMain')
+#1 C:\wamp\www\mysites\framework\web\actions\CInlineAction.php(50): AdministratorController->actionIndex()
+#2 C:\wamp\www\mysites\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 C:\wamp\www\mysites\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 C:\wamp\www\mysites\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('')
+#6 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator')
+#7 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php/administrator
+---
+2012/04/08 14:35:24 [error] [php] Missing argument 1 for CController::getLayoutFile(), called in C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php on line 16 and defined (C:\wamp\www\mysites\framework\web\CController.php:634)
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 C:\wamp\www\mysites\framework\web\CController.php(287): AdministratorController->runAction()
+#2 C:\wamp\www\mysites\framework\web\CController.php(266): AdministratorController->runActionWithFilters()
+#3 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): AdministratorController->run()
+#4 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#5 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\wamp\www\mysites\bukshuk\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/administrator
+in C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php (16)
+in C:\wamp\www\mysites\bukshuk\index.php (13)
+2012/04/08 14:37:36 [error] [exception.CException] exception 'CException' with message 'AdministratorController and its behaviors do not have a method or closure named "layout".' in C:\wamp\www\mysites\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(16): CComponent->__call('layout', Array)
+#1 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(16): Controller->layout('adminMain')
+#2 C:\wamp\www\mysites\framework\web\actions\CInlineAction.php(50): AdministratorController->actionIndex()
+#3 C:\wamp\www\mysites\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\mysites\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\mysites\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('')
+#7 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator')
+#8 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/administrator
+---
+2012/04/08 14:39:18 [error] [exception.CException] exception 'CException' with message 'AdministratorController and its behaviors do not have a method or closure named "layout".' in C:\wamp\www\mysites\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(16): CComponent->__call('layout', Array)
+#1 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(16): Controller->layout()
+#2 C:\wamp\www\mysites\framework\web\actions\CInlineAction.php(50): AdministratorController->actionIndex()
+#3 C:\wamp\www\mysites\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\mysites\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\mysites\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('')
+#7 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator')
+#8 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/administrator
+---
+2012/04/08 14:40:28 [error] [exception.CException] exception 'CException' with message 'AdministratorController and its behaviors do not have a method or closure named "layout".' in C:\wamp\www\mysites\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(16): CComponent->__call('layout', Array)
+#1 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(16): CController->layout()
+#2 C:\wamp\www\mysites\framework\web\actions\CInlineAction.php(50): AdministratorController->actionIndex()
+#3 C:\wamp\www\mysites\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\mysites\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\mysites\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('')
+#7 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator')
+#8 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/administrator
+---
+2012/04/08 14:42:24 [error] [exception.CException] exception 'CException' with message 'AdministratorController and its behaviors do not have a method or closure named "setLayoutPath".' in C:\wamp\www\mysites\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(16): CComponent->__call('setLayoutPath', Array)
+#1 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(16): Controller->setLayoutPath('C:\wamp\www\mys...')
+#2 C:\wamp\www\mysites\framework\web\actions\CInlineAction.php(50): AdministratorController->actionIndex()
+#3 C:\wamp\www\mysites\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\mysites\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\mysites\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('')
+#7 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator')
+#8 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/administrator
+---
+2012/04/08 14:42:26 [error] [exception.CException] exception 'CException' with message 'AdministratorController and its behaviors do not have a method or closure named "setLayoutPath".' in C:\wamp\www\mysites\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(16): CComponent->__call('setLayoutPath', Array)
+#1 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(16): Controller->setLayoutPath('C:\wamp\www\mys...')
+#2 C:\wamp\www\mysites\framework\web\actions\CInlineAction.php(50): AdministratorController->actionIndex()
+#3 C:\wamp\www\mysites\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\mysites\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\mysites\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('')
+#7 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator')
+#8 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/administrator
+---
+2012/04/08 14:42:48 [error] [exception.CException] exception 'CException' with message 'The layout path "adminMain" is not a valid directory.' in C:\wamp\www\mysites\framework\web\CWebApplication.php:478
+Stack trace:
+#0 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(15): CWebApplication->setLayoutPath('adminMain')
+#1 C:\wamp\www\mysites\framework\web\actions\CInlineAction.php(50): AdministratorController->actionIndex()
+#2 C:\wamp\www\mysites\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 C:\wamp\www\mysites\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 C:\wamp\www\mysites\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('')
+#6 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator')
+#7 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php/administrator
+---
+2012/04/08 14:43:13 [error] [exception.CException] exception 'CException' with message 'The layout path "C:\wamp\www\mysites\bukshuk\protected\views\layouts\adminMain" is not a valid directory.' in C:\wamp\www\mysites\framework\web\CWebApplication.php:478
+Stack trace:
+#0 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(15): CWebApplication->setLayoutPath('C:\wamp\www\mys...')
+#1 C:\wamp\www\mysites\framework\web\actions\CInlineAction.php(50): AdministratorController->actionIndex()
+#2 C:\wamp\www\mysites\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 C:\wamp\www\mysites\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 C:\wamp\www\mysites\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('')
+#6 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator')
+#7 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php/administrator
+---
+2012/04/08 14:53:00 [error] [exception.CException] exception 'CException' with message 'AdministratorController cannot find the requested view "administrator".' in C:\wamp\www\mysites\framework\web\CController.php:879
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CController.php(783): CController->renderPartial('administrator', NULL, true)
+#1 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(23): CController->render('administrator')
+#2 C:\wamp\www\mysites\framework\web\actions\CInlineAction.php(50): AdministratorController->actionIndex()
+#3 C:\wamp\www\mysites\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\mysites\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\mysites\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('')
+#7 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator')
+#8 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/administrator
+---
+2012/04/08 14:53:43 [error] [exception.CException] exception 'CException' with message 'AdministratorController cannot find the requested view "administrator".' in C:\wamp\www\mysites\framework\web\CController.php:879
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CController.php(783): CController->renderPartial('administrator', NULL, true)
+#1 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(23): CController->render('administrator')
+#2 C:\wamp\www\mysites\framework\web\actions\CInlineAction.php(50): AdministratorController->actionIndex()
+#3 C:\wamp\www\mysites\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\mysites\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\mysites\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('')
+#7 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator')
+#8 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/administrator
+---
+2012/04/08 14:54:05 [error] [exception.CException] exception 'CException' with message 'AdministratorController cannot find the requested view "administrator".' in C:\wamp\www\mysites\framework\web\CController.php:879
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CController.php(783): CController->renderPartial('administrator', NULL, true)
+#1 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(24): CController->render('administrator')
+#2 C:\wamp\www\mysites\framework\web\actions\CInlineAction.php(50): AdministratorController->actionIndex()
+#3 C:\wamp\www\mysites\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\mysites\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\mysites\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('')
+#7 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator')
+#8 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php/administrator
+---
+2012/04/08 14:55:52 [error] [php] Missing argument 1 for CController::__construct(), called in C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php on line 6 and defined (C:\wamp\www\mysites\framework\web\CController.php:111)
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(270): CWebApplication->createController()
+#1 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#2 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#3 C:\wamp\www\mysites\bukshuk\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/administrator
+in C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php (6)
+in C:\wamp\www\mysites\bukshuk\index.php (13)
+2012/04/08 14:58:48 [error] [exception.CException] exception 'CException' with message 'AdministratorController and its behaviors do not have a method or closure named "AdministratorController".' in C:\wamp\www\mysites\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(7): CComponent->__call('AdministratorCo...', Array)
+#1 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(7): Controller->AdministratorController()
+#2 C:\wamp\www\mysites\framework\web\CWebApplication.php(349): AdministratorController->__construct('administrator', NULL)
+#3 C:\wamp\www\mysites\framework\web\CWebApplication.php(270): CWebApplication->createController('administrator')
+#4 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator')
+#5 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php/administrator
+---
+2012/04/08 14:59:08 [error] [exception.CException] exception 'CException' with message 'AdministratorController and its behaviors do not have a method or closure named "CController".' in C:\wamp\www\mysites\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(7): CComponent->__call('CController', Array)
+#1 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(7): Controller->CController()
+#2 C:\wamp\www\mysites\framework\web\CWebApplication.php(349): AdministratorController->__construct('administrator', NULL)
+#3 C:\wamp\www\mysites\framework\web\CWebApplication.php(270): CWebApplication->createController('administrator')
+#4 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator')
+#5 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php/administrator
+---
+2012/04/08 14:59:19 [error] [exception.CException] exception 'CException' with message 'AdministratorController and its behaviors do not have a method or closure named "Controller".' in C:\wamp\www\mysites\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(7): CComponent->__call('Controller', Array)
+#1 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(7): Controller->Controller()
+#2 C:\wamp\www\mysites\framework\web\CWebApplication.php(349): AdministratorController->__construct('administrator', NULL)
+#3 C:\wamp\www\mysites\framework\web\CWebApplication.php(270): CWebApplication->createController('administrator')
+#4 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator')
+#5 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php/administrator
+---
+2012/04/08 14:59:53 [error] [php] Missing argument 1 for CController::__construct(), called in C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php on line 6 and defined (C:\wamp\www\mysites\framework\web\CController.php:111)
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(270): CWebApplication->createController()
+#1 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#2 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#3 C:\wamp\www\mysites\bukshuk\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/administrator
+in C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php (6)
+in C:\wamp\www\mysites\bukshuk\index.php (13)
+2012/04/08 15:00:59 [error] [php] Missing argument 1 for CController::__construct(), called in C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php on line 7 and defined (C:\wamp\www\mysites\framework\web\CController.php:111)
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(270): CWebApplication->createController()
+#1 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#2 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#3 C:\wamp\www\mysites\bukshuk\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/administrator
+in C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php (7)
+in C:\wamp\www\mysites\bukshuk\index.php (13)
+2012/04/30 06:00:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/04/30 06:00:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/04/30 06:06:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/04/30 06:06:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/04/30 15:23:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('admin')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin
+---
+2012/04/30 15:23:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/04/30 15:23:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/04/30 15:51:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/formbg.gif".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('css/images/form...')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/formbg.gif
+HTTP_REFERER=http://bukshuk.local/css/screen.css
+---
+2012/04/30 15:53:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/formbg.gif".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('css/images/form...')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/formbg.gif
+HTTP_REFERER=http://bukshuk.local/css/screen.css
+---
+2012/04/30 15:57:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/formbg.gif".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('css/images/form...')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/formbg.gif
+HTTP_REFERER=http://bukshuk.local/css/screen.css
+---
+2012/04/30 16:10:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/chromebg.gif".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('css/images/chro...')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/chromebg.gif
+HTTP_REFERER=http://bukshuk.local/css/screen.css
+---
+2012/04/30 16:10:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/chromebg.gif".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('css/images/chro...')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/chromebg.gif
+---
+2012/04/30 16:10:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/chromebg.gif".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('css/images/chro...')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/chromebg.gif
+---
+2012/04/30 16:10:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/chromebg.gif".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('css/images/chro...')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/chromebg.gif
+---
+2012/04/30 16:10:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/chromebg.gif".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('css/images/chro...')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/chromebg.gif
+---
+2012/04/30 16:12:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/chromebg.gif".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('css/images/chro...')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/chromebg.gif
+HTTP_REFERER=http://bukshuk.local/css/screen.css
+---
+2012/04/30 16:12:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/chromebg.gif".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('css/images/chro...')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/chromebg.gif
+HTTP_REFERER=http://bukshuk.local/css/screen.css
+---
+2012/04/30 16:12:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/chromebg.gif".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('css/images/chro...')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/chromebg.gif
+---
+2012/04/30 16:12:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/chromebg.gif".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('css/images/chro...')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/chromebg.gif
+---
+2012/04/30 16:12:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/chromebg.gif".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('css/images/chro...')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/chromebg.gif
+---
+2012/04/30 16:12:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/httimages/chromebg.gif".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('css/httimages/c...')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/httimages/chromebg.gif
+HTTP_REFERER=http://bukshuk.local/css/screen.css
+---
+2012/04/30 16:12:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/httpimages/chromebg.gif".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('css/httpimages/...')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/httpimages/chromebg.gif
+HTTP_REFERER=http://bukshuk.local/css/screen.css
+---
+2012/04/30 16:14:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/chromebg.gif".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('css/images/chro...')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/chromebg.gif
+HTTP_REFERER=http://bukshuk.local/css/screen.css
+---
+2012/04/30 16:15:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/chromebg.gif".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('css/chromebg.gi...')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/chromebg.gif
+HTTP_REFERER=http://bukshuk.local/css/screen.css
+---
+2012/04/30 16:15:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/chromebg.gif".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('css/chromebg.gi...')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/chromebg.gif
+---
+2012/04/30 16:17:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/chromebg.gif".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('css/chromebg.gi...')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/chromebg.gif
+---
+2012/04/30 16:17:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/chromebg.gif".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('css/chromebg.gi...')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/chromebg.gif
+---
+2012/04/30 16:17:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/chromebg.gif".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('css/chromebg.gi...')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/chromebg.gif
+---
+2012/04/30 16:17:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/imageschromebg.gif".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('css/imageschrom...')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/imageschromebg.gif
+HTTP_REFERER=http://bukshuk.local/css/screen.css
+---
+2012/04/30 16:17:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/chromebg.gif".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('css/images/chro...')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/chromebg.gif
+HTTP_REFERER=http://bukshuk.local/css/screen.css
+---
+2012/04/30 16:17:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bukshukimages/chromebg.gif".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('css/bukshukimag...')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bukshukimages/chromebg.gif
+HTTP_REFERER=http://bukshuk.local/css/screen.css
+---
+2012/04/30 16:17:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bukshuk/images/chromebg.gif".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('css/bukshuk/ima...')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bukshuk/images/chromebg.gif
+HTTP_REFERER=http://bukshuk.local/css/screen.css
+---
+2012/04/30 16:17:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bimages/chromebg.gif".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('css/bimages/chr...')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bimages/chromebg.gif
+HTTP_REFERER=http://bukshuk.local/css/screen.css
+---
+2012/04/30 16:17:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/chromebg.gif".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('css/images/chro...')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/chromebg.gif
+HTTP_REFERER=http://bukshuk.local/css/screen.css
+---
+2012/04/30 16:28:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/formbg.gif".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('css/images/form...')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/formbg.gif
+HTTP_REFERER=http://bukshuk.local/css/screen.css
+---
+2012/05/01 08:44:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/formbg.gif".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('css/images/form...')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/formbg.gif
+HTTP_REFERER=http://bukshuk.local/css/screen.css
+---
+2012/05/01 08:44:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/01 08:44:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/01 09:00:38 [error] [php] include(AdminLoginForm.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\www\mysites\framework\YiiBase.php:418)
+Stack trace:
+#0 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(20): spl_autoload_call()
+#1 C:\wamp\www\mysites\framework\web\actions\CInlineAction.php(50): AdministratorController->actionIndex()
+#2 C:\wamp\www\mysites\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 C:\wamp\www\mysites\framework\web\CController.php(287): AdministratorController->runAction()
+#4 C:\wamp\www\mysites\framework\web\CController.php(266): AdministratorController->runActionWithFilters()
+#5 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): AdministratorController->run()
+#6 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#7 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\wamp\www\mysites\bukshuk\index.php(13): CWebApplication->run()
+REQUEST_URI=/administrator
+in C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php (20)
+in C:\wamp\www\mysites\bukshuk\index.php (13)
+2012/05/01 09:05:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/formbg.gif".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('css/images/form...')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/formbg.gif
+HTTP_REFERER=http://bukshuk.local/css/screen.css
+---
+2012/05/01 09:14:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/formbg.gif".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('css/images/form...')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/formbg.gif
+HTTP_REFERER=http://bukshuk.local/css/screen.css
+---
+2012/05/01 09:15:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/formbg.gif".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('css/images/form...')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/images/formbg.gif
+HTTP_REFERER=http://bukshuk.local/css/screen.css
+---
+2012/05/01 10:40:15 [error] [php] Undefined index: AdminLogin (C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php:21)
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CController.php(287): AdministratorController->runAction()
+#1 C:\wamp\www\mysites\framework\web\CController.php(266): AdministratorController->runActionWithFilters()
+#2 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): AdministratorController->run()
+#3 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\mysites\bukshuk\index.php(13): CWebApplication->run()
+REQUEST_URI=/administrator
+in C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php (21)
+in C:\wamp\www\mysites\bukshuk\index.php (13)
+2012/05/01 12:40:31 [error] [exception.CException] exception 'CException' with message 'Property "AdministratorController._identity" is not defined.' in C:\wamp\www\mysites\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(20): CComponent->__get('_identity')
+#1 C:\wamp\www\mysites\framework\web\actions\CInlineAction.php(50): AdministratorController->actionIndex()
+#2 C:\wamp\www\mysites\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 C:\wamp\www\mysites\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 C:\wamp\www\mysites\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('')
+#6 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator')
+#7 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/administrator
+---
+2012/05/01 12:42:25 [error] [php] Use of undefined constant CWebUser - assumed 'CWebUser' (C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php:20)
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CController.php(287): AdministratorController->runAction()
+#1 C:\wamp\www\mysites\framework\web\CController.php(266): AdministratorController->runActionWithFilters()
+#2 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): AdministratorController->run()
+#3 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\mysites\bukshuk\index.php(13): CWebApplication->run()
+REQUEST_URI=/administrator
+in C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php (20)
+in C:\wamp\www\mysites\bukshuk\index.php (13)
+2012/05/01 12:42:56 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.CWebUser" is not defined.' in C:\wamp\www\mysites\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\mysites\framework\base\CModule.php(106): CComponent->__get('CWebUser')
+#1 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(20): CModule->__get('CWebUser')
+#2 C:\wamp\www\mysites\framework\web\actions\CInlineAction.php(50): AdministratorController->actionIndex()
+#3 C:\wamp\www\mysites\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\mysites\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\mysites\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('')
+#7 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator')
+#8 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/administrator
+---
+2012/05/01 13:20:56 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity._id" is not defined.' in C:\wamp\www\mysites\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\wamp\www\mysites\bukshuk\protected\components\UserIdentity.php(33): CComponent->__set('_id', 'admin')
+#1 C:\wamp\www\mysites\bukshuk\protected\models\AdminLogin.php(22): UserIdentity->authenticate()
+#2 C:\wamp\www\mysites\framework\validators\CInlineValidator.php(43): AdminLogin->authenticate('password', Array)
+#3 C:\wamp\www\mysites\framework\validators\CValidator.php(197): CInlineValidator->validateAttribute(Object(AdminLogin), 'password')
+#4 C:\wamp\www\mysites\framework\base\CModel.php(158): CValidator->validate(Object(AdminLogin), NULL)
+#5 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(25): CModel->validate()
+#6 C:\wamp\www\mysites\framework\web\actions\CInlineAction.php(50): AdministratorController->actionIndex()
+#7 C:\wamp\www\mysites\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\mysites\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\mysites\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('')
+#11 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator')
+#12 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/administrator
+HTTP_REFERER=http://bukshuk.local/administrator
+---
+2012/05/01 13:22:44 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity._id" is not defined.' in C:\wamp\www\mysites\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\mysites\bukshuk\protected\components\UserIdentity.php(42): CComponent->__get('_id')
+#1 C:\wamp\www\mysites\framework\web\auth\CWebUser.php(224): UserIdentity->getId()
+#2 C:\wamp\www\mysites\bukshuk\protected\models\AdminLogin.php(25): CWebUser->login(Object(UserIdentity))
+#3 C:\wamp\www\mysites\framework\validators\CInlineValidator.php(43): AdminLogin->authenticate('password', Array)
+#4 C:\wamp\www\mysites\framework\validators\CValidator.php(197): CInlineValidator->validateAttribute(Object(AdminLogin), 'password')
+#5 C:\wamp\www\mysites\framework\base\CModel.php(158): CValidator->validate(Object(AdminLogin), NULL)
+#6 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(25): CModel->validate()
+#7 C:\wamp\www\mysites\framework\web\actions\CInlineAction.php(50): AdministratorController->actionIndex()
+#8 C:\wamp\www\mysites\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#9 C:\wamp\www\mysites\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#10 C:\wamp\www\mysites\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('')
+#12 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator')
+#13 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/administrator
+HTTP_REFERER=http://bukshuk.local/administrator
+---
+2012/05/01 13:25:09 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity._id" is not defined.' in C:\wamp\www\mysites\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\wamp\www\mysites\bukshuk\protected\components\UserIdentity.php(33): CComponent->__set('_id', 'admin')
+#1 C:\wamp\www\mysites\bukshuk\protected\models\AdminLogin.php(22): UserIdentity->authenticate()
+#2 C:\wamp\www\mysites\framework\validators\CInlineValidator.php(43): AdminLogin->authenticate('password', Array)
+#3 C:\wamp\www\mysites\framework\validators\CValidator.php(197): CInlineValidator->validateAttribute(Object(AdminLogin), 'password')
+#4 C:\wamp\www\mysites\framework\base\CModel.php(158): CValidator->validate(Object(AdminLogin), NULL)
+#5 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(25): CModel->validate()
+#6 C:\wamp\www\mysites\framework\web\actions\CInlineAction.php(50): AdministratorController->actionIndex()
+#7 C:\wamp\www\mysites\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\mysites\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\mysites\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('')
+#11 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator')
+#12 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/administrator
+HTTP_REFERER=http://bukshuk.local/administrator
+---
+2012/05/01 14:23:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/01 14:23:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/01 15:02:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "administrator".' in C:\wamp\www\mysites\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CController.php(271): CController->missingAction('administrator')
+#1 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('administrator')
+#2 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator/a...')
+#3 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/administrator/administrator
+HTTP_REFERER=http://bukshuk.local/administrator/home
+---
+2012/05/01 15:02:54 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.title" is not defined.' in C:\wamp\www\mysites\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\auth\CWebUser.php(141): CComponent->__get('title')
+#1 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(21): CWebUser->__get('title')
+#2 C:\wamp\www\mysites\framework\web\actions\CInlineAction.php(50): AdministratorController->actionIndex()
+#3 C:\wamp\www\mysites\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\mysites\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\mysites\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('')
+#7 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator')
+#8 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/administrator
+---
+2012/05/01 15:10:25 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.title" is not defined.' in C:\wamp\www\mysites\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\auth\CWebUser.php(141): CComponent->__get('title')
+#1 C:\wamp\www\mysites\bukshuk\protected\views\layouts\adminMain.php(33): CWebUser->__get('title')
+#2 C:\wamp\www\mysites\framework\web\CBaseController.php(127): require('C:\wamp\www\mys...')
+#3 C:\wamp\www\mysites\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\mys...', Array, true)
+#4 C:\wamp\www\mysites\framework\web\CController.php(785): CBaseController->renderFile('C:\wamp\www\mys...', Array, true)
+#5 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(50): CController->render('administrator', Array)
+#6 C:\wamp\www\mysites\framework\web\actions\CInlineAction.php(50): AdministratorController->actionIndex()
+#7 C:\wamp\www\mysites\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\mysites\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\mysites\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('')
+#11 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator')
+#12 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/administrator
+---
+2012/05/01 15:11:21 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.title" is not defined.' in C:\wamp\www\mysites\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\auth\CWebUser.php(141): CComponent->__get('title')
+#1 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(24): CWebUser->__get('title')
+#2 C:\wamp\www\mysites\framework\web\actions\CInlineAction.php(50): AdministratorController->actionIndex()
+#3 C:\wamp\www\mysites\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\mysites\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\mysites\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('')
+#7 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator')
+#8 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/administrator
+---
+2012/05/01 15:13:22 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.title" is not defined.' in C:\wamp\www\mysites\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\auth\CWebUser.php(141): CComponent->__get('title')
+#1 C:\wamp\www\mysites\bukshuk\protected\views\layouts\adminMain.php(33): CWebUser->__get('title')
+#2 C:\wamp\www\mysites\framework\web\CBaseController.php(127): require('C:\wamp\www\mys...')
+#3 C:\wamp\www\mysites\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\mys...', Array, true)
+#4 C:\wamp\www\mysites\framework\web\CController.php(785): CBaseController->renderFile('C:\wamp\www\mys...', Array, true)
+#5 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(51): CController->render('administrator', Array)
+#6 C:\wamp\www\mysites\framework\web\actions\CInlineAction.php(50): AdministratorController->actionIndex()
+#7 C:\wamp\www\mysites\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\mysites\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\mysites\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('')
+#11 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator')
+#12 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/administrator
+---
+2012/05/01 15:15:18 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.title" is not defined.' in C:\wamp\www\mysites\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\auth\CWebUser.php(141): CComponent->__get('title')
+#1 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(24): CWebUser->__get('title')
+#2 C:\wamp\www\mysites\framework\web\actions\CInlineAction.php(50): AdministratorController->actionIndex()
+#3 C:\wamp\www\mysites\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\mysites\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\mysites\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('')
+#7 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator')
+#8 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/administrator
+---
+2012/05/01 15:15:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "addbooks".' in C:\wamp\www\mysites\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CController.php(271): CController->missingAction('addbooks')
+#1 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('addbooks')
+#2 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator/a...')
+#3 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/administrator/addbooks/view/addbooks
+HTTP_REFERER=http://bukshuk.local/administrator
+---
+2012/05/01 15:19:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "administrator".' in C:\wamp\www\mysites\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CController.php(271): CController->missingAction('administrator')
+#1 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('administrator')
+#2 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator/a...')
+#3 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/administrator/administrator/index
+HTTP_REFERER=http://bukshuk.local/administrator/home
+---
+2012/05/01 15:20:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "administrator".' in C:\wamp\www\mysites\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CController.php(271): CController->missingAction('administrator')
+#1 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('administrator')
+#2 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator/a...')
+#3 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/administrator/administrator/home
+HTTP_REFERER=http://bukshuk.local/administrator/
+---
+2012/05/01 15:24:59 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.config" is not defined.' in C:\wamp\www\mysites\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\mysites\framework\base\CModule.php(106): CComponent->__get('config')
+#1 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(73): CModule->__get('config')
+#2 C:\wamp\www\mysites\framework\web\actions\CInlineAction.php(50): AdministratorController->actionLogout()
+#3 C:\wamp\www\mysites\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\mysites\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\mysites\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('logout')
+#7 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator/l...')
+#8 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/administrator/logout
+HTTP_REFERER=http://bukshuk.local/administrator/home
+---
+2012/05/01 15:25:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('home')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/home
+HTTP_REFERER=http://bukshuk.local/administrator/home
+---
+2012/05/01 15:26:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('home')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/home
+HTTP_REFERER=http://bukshuk.local/administrator
+---
+2012/05/01 15:27:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('home')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/home
+---
+2012/05/01 15:33:00 [error] [exception.CException] exception 'CException' with message 'AdministratorController and its behaviors do not have a method or closure named "Checklogin".' in C:\wamp\www\mysites\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(65): CComponent->__call('Checklogin', Array)
+#1 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(65): AdministratorController->Checklogin()
+#2 C:\wamp\www\mysites\framework\web\actions\CInlineAction.php(50): AdministratorController->actionHome()
+#3 C:\wamp\www\mysites\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\mysites\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\mysites\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('home')
+#7 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator/h...')
+#8 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/administrator/home
+---
+2012/05/01 15:34:19 [error] [exception.CException] exception 'CException' with message 'AdministratorController and its behaviors do not have a method or closure named "Checklogin".' in C:\wamp\www\mysites\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(65): CComponent->__call('Checklogin', Array)
+#1 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(65): AdministratorController->Checklogin()
+#2 C:\wamp\www\mysites\framework\web\actions\CInlineAction.php(50): AdministratorController->actionHome()
+#3 C:\wamp\www\mysites\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\mysites\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\mysites\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('home')
+#7 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator/h...')
+#8 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/administrator/home
+---
+2012/05/01 15:34:32 [error] [exception.CException] exception 'CException' with message 'AdministratorController and its behaviors do not have a method or closure named "checklogin".' in C:\wamp\www\mysites\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(65): CComponent->__call('checklogin', Array)
+#1 C:\wamp\www\mysites\bukshuk\protected\controllers\AdministratorController.php(65): AdministratorController->checklogin()
+#2 C:\wamp\www\mysites\framework\web\actions\CInlineAction.php(50): AdministratorController->actionHome()
+#3 C:\wamp\www\mysites\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\mysites\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\mysites\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('home')
+#7 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator/h...')
+#8 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/administrator/home
+---
+2012/05/01 15:41:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "administrator".' in C:\wamp\www\mysites\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CController.php(271): CController->missingAction('administrator')
+#1 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('administrator')
+#2 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator/a...')
+#3 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/administrator/administrator/home
+HTTP_REFERER=http://bukshuk.local/administrator/
+---
+2012/05/01 15:41:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "administrator".' in C:\wamp\www\mysites\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CController.php(271): CController->missingAction('administrator')
+#1 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('administrator')
+#2 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator/a...')
+#3 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/administrator/administrator/home
+HTTP_REFERER=http://bukshuk.local/administrator/
+---
+2012/05/01 15:41:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "administrator".' in C:\wamp\www\mysites\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CController.php(271): CController->missingAction('administrator')
+#1 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('administrator')
+#2 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator/a...')
+#3 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/administrator/administrator/home
+HTTP_REFERER=http://bukshuk.local/administrator/home
+---
+2012/05/01 15:41:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "administrator".' in C:\wamp\www\mysites\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CController.php(271): CController->missingAction('administrator')
+#1 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('administrator')
+#2 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator/a...')
+#3 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/administrator/administrator/home
+HTTP_REFERER=http://bukshuk.local/administrator/home
+---
+2012/05/01 15:41:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "administrator".' in C:\wamp\www\mysites\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CController.php(271): CController->missingAction('administrator')
+#1 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('administrator')
+#2 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator/a...')
+#3 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/administrator/administrator/home
+HTTP_REFERER=http://bukshuk.local/administrator/home
+---
+2012/05/01 15:41:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "administrator".' in C:\wamp\www\mysites\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CController.php(271): CController->missingAction('administrator')
+#1 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('administrator')
+#2 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator/a...')
+#3 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/administrator/administrator/home
+HTTP_REFERER=http://bukshuk.local/administrator/home
+---
+2012/05/01 15:41:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "administrator".' in C:\wamp\www\mysites\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CController.php(271): CController->missingAction('administrator')
+#1 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('administrator')
+#2 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator/a...')
+#3 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/administrator/administrator/home
+---
+2012/05/01 16:07:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "addbooks".' in C:\wamp\www\mysites\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CController.php(271): CController->missingAction('addbooks')
+#1 C:\wamp\www\mysites\framework\web\CWebApplication.php(276): CController->run('addbooks')
+#2 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('administrator/a...')
+#3 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/administrator/addbooks
+HTTP_REFERER=http://bukshuk.local/administrator/
+---
+2012/05/01 16:56:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "testdrive/index.php".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('testdrive/index...')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/testdrive/index.php?r=gii
+---
+2012/05/06 07:23:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/06 07:23:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/06 11:32:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/06 11:32:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/16 05:01:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/16 05:01:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\mysites\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\mysites\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\mysites\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\mysites\bukshuk\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---

@@ -15,19 +15,33 @@ class UserIdentity extends CUserIdentity
 	 * against some persistent user identity storage (e.g. database).
 	 * @return boolean whether authentication succeeds.
 	 */
+	 private $_id;
+
 	public function authenticate()
 	{
-		$users=array(
-			// username => password
-			'demo'=>'demo',
-			'admin'=>'admin',
-		);
-		if(!isset($users[$this->username]))
-			$this->errorCode=self::ERROR_USERNAME_INVALID;
-		else if($users[$this->username]!==$this->password)
-			$this->errorCode=self::ERROR_PASSWORD_INVALID;
-		else
-			$this->errorCode=self::ERROR_NONE;
+		$row = Yii::app()->db->createCommand(array(
+    'select' => array('user_name', 'password'),
+    'from' => 'tbl_admin_master',
+    'where' => 'user_name=:user_name',
+    'params' => array(':user_name'=>$this->username),
+))->queryRow();
+		
+        if($row===null)
+            $this->errorCode=self::ERROR_USERNAME_INVALID;
+        else if($row['password']!==($this->password))
+            $this->errorCode=self::ERROR_PASSWORD_INVALID;
+        else
+        {
+            $this->_id='admin';
+            $this->setState('title', 'admin');
+            $this->errorCode=self::ERROR_NONE;
+        }
 		return !$this->errorCode;
 	}
+	
+	public function getId()
+    {
+        return $this->_id;
+    }
+
 }
